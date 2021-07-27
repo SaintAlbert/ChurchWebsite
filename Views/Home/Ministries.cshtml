@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "Ministries";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<h2>@ViewBag.Page</h2>*@
+
+<section class="breadcrumbs-custom bg-image context-dark" style="background-image: url(../images/slider-alter-slide-1-1920x800.jpg);">
+    <div class="breadcrumbs-custom-inner">
+        <div class="container breadcrumbs-custom-container">
+            <div class="breadcrumbs-custom-main">
+                <h6 class="breadcrumbs-custom-subtitle title-decorated">Ministries</h6>
+                <h1 class="breadcrumbs-custom-title">@ViewBag.Page</h1>
+            </div>
+            <ul class="breadcrumbs-custom-path">
+                <li>
+                    @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "" })
+                </li>
+                <li class="active">@ViewBag.Page</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+@{
+    switch (ViewBag.Page)
+    {
+        case "Prophetic Ministry":
+            Html.RenderPartial("PropheticMinistry");
+            break;
+        case "Women Ministry":
+            Html.RenderPartial("WomenMinistry");
+            break;
+        case "Angelic Choir":
+            Html.RenderPartial("ChoirMinistry");
+            break;
+        case "Sunday School":
+            Html.RenderPartial("SundaySchool");
+            break;
+        case "Ushering":
+            Html.RenderPartial("Ushering");
+            break;
+        case "Media":
+            Html.RenderPartial("Media");
+            break;
+        case "Welfare":
+            Html.RenderPartial("Welfare");
+            break;
+             case "Upcoming Event":
+            Html.RenderPartial("Welfare");
+            break;
+             case "Galary":
+            Html.RenderPartial("Galary");
+            break;
+        default:
+            Html.RenderPartial("UpcomingEvent");
+            break;
+    }
+    
+}
+

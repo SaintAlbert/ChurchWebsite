@@ -1,0 +1,85 @@
+﻿
+@*@{
+    ViewBag.Title = "Galary";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}*@
+
+@*<h2>Galary</h2>*@
+<!-- Breadcrumbs-->
+
+<section class="section section-lg oh">
+    <div class="container">
+        <!-- Isotope Filters-->
+        <div class="isotope-filters isotope-filters-modern">
+            <button class="isotope-filters-toggle button button-sm button-primary" data-custom-toggle="#isotope-filters" data-custom-toggle-disable-on-blur="true">Filter<span class="caret"></span></button>
+            <ul class="isotope-filters-list" id="isotope-filters">
+                <li><a class="active" data-isotope-filter="*" data-isotope-group="gallery" href="#">All Types
+                <li><a data-isotope-filter="Type 1" data-isotope-group="gallery" href="#">Events</a></li>
+                <li><a data-isotope-filter="Type 2" data-isotope-group="gallery" href="#">Activities</a></li></a></li>
+            </ul>
+        </div>
+        <div class="isotope isotope-responsive row" data-isotope-layout="masonry" data-isotope-group="gallery" data-lightgallery="group">
+            <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 2">
+                <!-- Thumbnail Corporate--><a class="thumbnail-corporate thumbnail-corporate-light" href="~/images/gallery-masonry-1-original.jpg" data-lightgallery="item">
+                    <img class="thumbnail-corporate-image" src="~/images/gallery-masonry-1-370x256.jpg" alt="" width="370" height="256" />
+                    <div class="thumbnail-corporate-caption">
+                        <p class="thumbnail-corporate-title">Hinduism History</p>
+                        <div class="thumbnail-corporate-link"><span class="icon mdi mdi-plus"></span><span class="icon mdi mdi-plus"></span></div>
+                    </div>
+                    <div class="thumbnail-corporate-dummy"></div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 1">
+                <!-- Thumbnail Corporate--><a class="thumbnail-corporate thumbnail-corporate-light thumbnail-corporate-lg" href="~/images/gallery-masonry-2-original.jpg" data-lightgallery="item">
+                    <img class="thumbnail-corporate-image" src="~/images/gallery-masonry-2-370x464.jpg" alt="" width="370" height="464" />
+                    <div class="thumbnail-corporate-caption">
+                        <p class="thumbnail-corporate-title">Sacred Texts</p>
+                        <div class="thumbnail-corporate-link"><span class="icon mdi mdi-plus"></span><span class="icon mdi mdi-plus"></span></div>
+                    </div>
+                    <div class="thumbnail-corporate-dummy"></div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 2">
+                <!-- Thumbnail Corporate--><a class="thumbnail-corporate thumbnail-corporate-light" href="~/images/gallery-masonry-3-original.jpg" data-lightgallery="item">
+                    <img class="thumbnail-corporate-image" src="~/images/gallery-masonry-3-370x256.jpg" alt="" width="370" height="256" />
+                    <div class="thumbnail-corporate-caption">
+                        <p class="thumbnail-corporate-title">Recognizing the Gods</p>
+                        <div class="thumbnail-corporate-link"><span class="icon mdi mdi-plus"></span><span class="icon mdi mdi-plus"></span></div>
+                    </div>
+                    <div class="thumbnail-corporate-dummy"></div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 1">
+                <!-- Thumbnail Corporate--><a class="thumbnail-corporate thumbnail-corporate-light thumbnail-corporate-lg" href="~/images/gallery-masonry-4-original.jpg" data-lightgallery="item">
+                    <img class="thumbnail-corporate-image" src="~/images/gallery-masonry-4-370x464.jpg" alt="" width="370" height="464" />
+                    <div class="thumbnail-corporate-caption">
+                        <p class="thumbnail-corporate-title">Art of Hinduism</p>
+                        <div class="thumbnail-corporate-link"><span class="icon mdi mdi-plus"></span><span class="icon mdi mdi-plus"></span></div>
+                    </div>
+                    <div class="thumbnail-corporate-dummy"></div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 1">
+                <!-- Thumbnail Corporate--><a class="thumbnail-corporate thumbnail-corporate-light thumbnail-corporate-lg" href="~/images/gallery-masonry-6-original.jpg" data-lightgallery="item">
+                    <img class="thumbnail-corporate-image" src="~/images/gallery-masonry-6-370x464.jpg" alt="" width="370" height="464" />
+                    <div class="thumbnail-corporate-caption">
+                        <p class="thumbnail-corporate-title">Krishna Mythology</p>
+                        <div class="thumbnail-corporate-link"><span class="icon mdi mdi-plus"></span><span class="icon mdi mdi-plus"></span></div>
+                    </div>
+                    <div class="thumbnail-corporate-dummy"></div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-lg-4 isotope-item" data-filter="Type 2">
+                <!-- Thumbnail Corporate--><a class="thumbnail-corporate thumbnail-corporate-light" href="~/images/gallery-masonry-5-original.jpg" data-lightgallery="item">
+                    <img class="thumbnail-corporate-image" src="~/images/gallery-masonry-5-370x256.jpg" alt="" width="370" height="256" />
+                    <div class="thumbnail-corporate-caption">
+                        <p class="thumbnail-corporate-title">The Legend of Krishna</p>
+                        <div class="thumbnail-corporate-link"><span class="icon mdi mdi-plus"></span><span class="icon mdi mdi-plus"></span></div>
+                    </div>
+                    <div class="thumbnail-corporate-dummy"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+

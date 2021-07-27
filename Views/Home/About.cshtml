@@ -1,0 +1,243 @@
+﻿
+@{
+    ViewBag.Title = "About";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<h2>About</h2>*@
+
+@*<div class="page">*@
+
+<!-- Breadcrumbs-->
+<section class="breadcrumbs-custom bg-image context-dark" style="background-image: url(../images/slider-alter-slide-1-1920x800.jpg);">
+    <div class="breadcrumbs-custom-inner">
+        <div class="container breadcrumbs-custom-container">
+            <div class="breadcrumbs-custom-main">
+                <h6 class="breadcrumbs-custom-subtitle title-decorated">About</h6>
+                <h1 class="breadcrumbs-custom-title">About</h1>
+            </div>
+            <ul class="breadcrumbs-custom-path">
+                <li>
+                    @*<a href="index.html">Home</a>*@
+                    @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "" })
+                </li>
+                <li class="active">About</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Overview-->
+<section class="section section-sm pb-0">
+    <div class="container">
+        <div class="row row-50 justify-content-center justify-content-lg-between">
+            <div class="col-md-10 col-lg-6 align-self-center">
+                <h3>Overview</h3>
+                <h4 class="offset-top-3">CELESTIAL CHURCH OF CHRIST NEW JERUSALEM PARISH, MANCHESTER.</h4>
+                <p>Glory be to God in His Majesty for his wonderful grace and the Birth of this Parish at the unique time of 16 years plus of the Parish existence. This is a story of Vision accomplished</p>
+                <p>It is known by every Celestians in the United Kingdom that there is a Parish called <strong>New Jerusalem Centrl Parish, Manchester</strong>. This church came into existence by our grand patron &amp; father in the Lord <strong>Prophet B Oni</strong>.</p>
+                <div class="group group-middle"><a class="button button-primary button-winona" href="#our-history" data-waypoint-to="#our-history">View our History</a><a class="button button-primary-outline button-winona" href="#">Join our Team</a></div>
+            </div>
+            <div class="col-md-10 col-lg-6 col-xl-5">
+                <img src="~/images/sbj-about-1-539x598.png" alt="" width="539" height="598" />
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section section-lg bg-gray-800" id="our-history">
+    <div class="container">
+        <!-- Timeline Classic-->
+        <article class="timeline-classic">
+            <div class="timeline-classic-item">
+                <div class="timeline-classic-item-aside">
+                    <img class="timeline-classic-item-image" src="~/images/timeline-1-390x250.jpg" alt="" width="390" height="250" />
+                </div>
+                <div class="timeline-classic-item-divider"></div>
+                <div class="timeline-classic-item-main">
+                    <p class="timeline-classic-item-title">December 1995</p>
+                    <p class="thumbnail-classic-item-subtitle">Adipiscing inciderint est in. Ius nusquam oportere et, ius ea mazim definiebas scriben</p>
+                    <p class="thumbnail-classic-item-description">Elit pellentesque habitant morbi tristique senectus et netus. Magna sit amet purus gravida. Purus gravida quis blandit turpis cursus. Viverra mauris in aliquam sem. At auctor urna nunc id cursus metus. Sit amet consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="timeline-classic-item">
+                <div class="timeline-classic-item-aside">
+                    <img class="timeline-classic-item-image" src="~/images/timeline-2-390x250.jpg" alt="" width="390" height="250" />
+                </div>
+                <div class="timeline-classic-item-divider"></div>
+                <div class="timeline-classic-item-main">
+                    <p class="timeline-classic-item-title">March 2004</p>
+                    <p class="thumbnail-classic-item-subtitle">Mel tale nonumy ea. Illum dicunt usu te. Ne iisque equidem definitionem usu, vis facer</p>
+                    <p class="thumbnail-classic-item-description">Viverra aliquet eget sit amet. Eget dolor morbi non arcu risus quis varius quam. Cursus in hac habitasse platea dictumst quisque sagittis. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Amet consectetur adipiscing elit pellentesque. Pharetra massa massa ultricies mi.</p>
+                </div>
+            </div>
+            <div class="timeline-classic-item">
+                <div class="timeline-classic-item-aside">
+                    <img class="timeline-classic-item-image" src="~/images/timeline-3-390x250.jpg" alt="" width="390" height="250" />
+                </div>
+                <div class="timeline-classic-item-divider"></div>
+                <div class="timeline-classic-item-main">
+                    <p class="timeline-classic-item-title">April 2010</p>
+                    <p class="thumbnail-classic-item-subtitle">Ei solum iisque saperet quo, quot tamquam dissentiunt sea ne, ne per accusam lucilius</p>
+                    <p class="thumbnail-classic-item-description">Diam ut venenatis tellus in metus vulputate eu scelerisque. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Amet facilisis magna etiam tempor. Sodales neque sodales ut etiam sit amet nisl.</p>
+                </div>
+            </div>
+            <div class="timeline-classic-item">
+                <div class="timeline-classic-item-aside">
+                    <img class="timeline-classic-item-image" src="~/images/timeline-4-390x250.jpg" alt="" width="390" height="250" />
+                </div>
+                <div class="timeline-classic-item-divider"></div>
+                <div class="timeline-classic-item-main">
+                    <p class="timeline-classic-item-title">May 2020</p>
+                    <p class="thumbnail-classic-item-subtitle">Eu dico principes consequat his. Euismod constituam sed te. At est sensibus scriptorem</p>
+                    <p class="thumbnail-classic-item-description">Sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus. Ut lectus arcu bibendum at varius. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Id venenatis a condimentum vitae sapien. Elementum nibh tellus molestie nunc non blandit massa. Morbi quis commodo odio aenean.</p>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
+<!-- Who We Are-->
+<section class="section section-lg text-center">
+    <div class="container">
+        <h3>Who We Are</h3>
+        <div class="row row-50">
+            <div class="col-sm-6 col-lg-4">
+                <!-- Profile Minimal-->
+                <article class="profile-minimal">
+                    <img class="profile-minimal-image" src="~/images/team-1-370x368.jpg" alt="" width="370" height="368" />
+                    <div class="profile-minimal-caption">
+                        <h4 class="profile-minimal-title"><a href="team-member-page.html">Albert Flores</a></h4>
+                        <p class="profile-minimal-position">Pastor</p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <!-- Profile Minimal-->
+                <article class="profile-minimal">
+                    <img class="profile-minimal-image" src="~/images/team-2-370x368.jpg" alt="" width="370" height="368" />
+                    <div class="profile-minimal-caption">
+                        <h4 class="profile-minimal-title"><a href="team-member-page.html">Jacob Jones</a></h4>
+                        <p class="profile-minimal-position">Pastor</p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <!-- Profile Minimal-->
+                <article class="profile-minimal">
+                    <img class="profile-minimal-image" src="~/images/team-3-370x368.jpg" alt="" width="370" height="368" />
+                    <div class="profile-minimal-caption">
+                        <h4 class="profile-minimal-title"><a href="team-member-page.html">Jay Robinson</a></h4>
+                        <p class="profile-minimal-position">Pastor</p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <!-- Profile Minimal-->
+                <article class="profile-minimal">
+                    <img class="profile-minimal-image" src="~/images/team-4-370x368.jpg" alt="" width="370" height="368" />
+                    <div class="profile-minimal-caption">
+                        <h4 class="profile-minimal-title"><a href="team-member-page.html">Cody Fisher</a></h4>
+                        <p class="profile-minimal-position">Pastor</p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <!-- Profile Minimal-->
+                <article class="profile-minimal">
+                    <img class="profile-minimal-image" src="~/images/team-5-370x368.jpg" alt="" width="370" height="368" />
+                    <div class="profile-minimal-caption">
+                        <h4 class="profile-minimal-title"><a href="team-member-page.html">Alec Cain</a></h4>
+                        <p class="profile-minimal-position">Pastor</p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <!-- Profile Minimal-->
+                <article class="profile-minimal">
+                    <img class="profile-minimal-image" src="~/images/team-6-370x368.jpg" alt="" width="370" height="368" />
+                    <div class="profile-minimal-caption">
+                        <h4 class="profile-minimal-title"><a href="team-member-page.html">Hugh Haris</a></h4>
+                        <p class="profile-minimal-position">Pastor</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Latest News-->
+@*<section class="section section-lg bg-gray-100">
+        <div class="container">
+            <h3 class="text-center">Latest News</h3>
+            <div class="row row-50 justify-content-center justify-content-lg-start">
+                <div class="col-md-10 col-lg-7">
+                    <!-- Post Block-->
+                    <article class="post-block context-dark">
+                        <img class="post-block-image" src="images/blog-layouts-5-637x456.jpg" alt="" width="637" height="456" />
+                        <div class="post-block-caption">
+                            <ul class="post-block-meta big">
+                                <li><span>by Theresa Barnes</span></li>
+                                <li><a class="button-winona" href="grid-blog.html">News</a></li>
+                                <li>
+                                    <time datetime="2020">April 2, 2020</time>
+                                </li>
+                            </ul>
+                            <h4 class="post-block-title"><a href="single-blog-post.html">How important is church?</a></h4>
+                        </div>
+                        <div class="post-block-dummy"></div>
+                    </article>
+                </div>
+                <div class="col-md-10 col-lg-5">
+                    <div class="post-light-group">
+                        <!-- Post Light-->
+                        <article class="post-light">
+                            <time class="post-light-time" datetime="2020"><span class="post-light-time-big">29</span><span class="post-light-time-small">October</span></time>
+                            <div class="post-light-main">
+                                <h4 class="post-light-title"><a href="single-blog-post.html">What is Jesus undoing in your life?</a></h4>
+                                <ul class="post-light-meta big">
+                                    <li>by Theresa Barnes</li>
+                                    <li><a class="button-winona" href="grid-blog.html">News</a></li>
+                                </ul>
+                            </div>
+                        </article>
+                        <!-- Post Light-->
+                        <article class="post-light">
+                            <time class="post-light-time" datetime="2020"><span class="post-light-time-big">30</span><span class="post-light-time-small">October</span></time>
+                            <div class="post-light-main">
+                                <h4 class="post-light-title"><a href="single-blog-post.html">Caring about the community & serving</a></h4>
+                                <ul class="post-light-meta big">
+                                    <li>by Theresa Barnes</li>
+                                    <li><a class="button-winona" href="grid-blog.html">News</a></li>
+                                </ul>
+                            </div>
+                        </article>
+                        <!-- Post Light-->
+                        <article class="post-light">
+                            <time class="post-light-time" datetime="2020"><span class="post-light-time-big">2</span><span class="post-light-time-small">October</span></time>
+                            <div class="post-light-main">
+                                <h4 class="post-light-title"><a href="single-blog-post.html">The disappointment with your pastor</a></h4>
+                                <ul class="post-light-meta big">
+                                    <li>by Theresa Barnes</li>
+                                    <li><a class="button-winona" href="grid-blog.html">News</a></li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="button-outer"><a class="button button-primary button-winona btn-md-1" href="grid-blog.html">View all posts</a></div>
+                </div>
+            </div>
+        </div>
+    </section>*@
+@*<section class="section section-sm text-center bg-image context-dark" style="background-image: url('images/call-to-action.jpg')">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-10 col-md-12">
+                    <div class="box-cta-thin">
+                        <h4 class="wow-outer"><span class="wow slideInRight">Experience God's unconditional grace and forgiveness.</span></h4>
+                        <div class="button-outer"><a class="btn-md button button-primary button-winona wow slideInLeft" href="services.html">Get started</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>*@
+
+@*</div>*@
+
